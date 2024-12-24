@@ -14,7 +14,3 @@ it will do addition or subtraction accordingly. If one operand is a string, it w
 The variable handling is done by a symbolTable that keeps track of the name of variables and their values. The code also creates a new local scope upon entering or exiting functions or 
 blocks like those inside a loop or if statement so that the variables defined in that scope do not interfere with those outside the scope. In addition, 
 the visitor can also read user input with readInput for interactive programs; function calls and function definitions allow the code to handle reusable logic through parameters and local scopes. 
-
-
-I took help from copilot to understand how to debug my code properly cause i was failing operator precedence and the while statement as i had an issue with my block. 
-Also, asked copiloit to help me understand the assignment and make a step by a step strategy to do things. Honsetly, did a lot by debugging my code myself cause copilot was useless. 
